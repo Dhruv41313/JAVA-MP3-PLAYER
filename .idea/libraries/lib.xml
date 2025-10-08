@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://D:/Java/javafx-sdk-24.0.2/lib" />
+      <root url="jar://$USER_HOME$/Downloads/jaudiotagger-2.2.6-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/Java/javafx-sdk-24.0.2/lib" recursive="false" />
+  </library>
+</component>

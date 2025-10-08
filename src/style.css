@@ -1,0 +1,94 @@
+.root {
+    -fx-background-color: #121212;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* --- Buttons --- */
+.button {
+    -fx-background-color: #222;
+    -fx-text-fill: #e0e0e0;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-font-size: 13px;
+    -fx-padding: 8 15 8 15;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 5, 0, 0, 2);
+    -fx-transition: all 0.3s ease;
+}
+.button:hover {
+    -fx-background-color: #1db954;
+    -fx-text-fill: #121212;
+}
+
+/* --- Labels --- */
+.label {
+    -fx-text-fill: #f5f5f5;
+    -fx-font-size: 13px;
+}
+
+/* --- ListView (Playlist) --- */
+.list-view {
+    -fx-background-color: #181818;
+    -fx-control-inner-background: #181818;
+    -fx-border-color: #333;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 5;
+}
+.list-cell:filled:selected, .list-cell:filled:hover {
+    -fx-background-color: #1db954;
+    -fx-text-fill: black;
+}
+
+/* --- Sliders --- */
+.slider {
+    -fx-accent: #1db954;
+}
+.slider .thumb {
+    -fx-background-color: #1db954;
+}
+.slider .track {
+    -fx-background-color: #333;
+}
+
+/* --- Album Art --- */
+#metadataBox {
+    -fx-background-color: #181818;
+    -fx-padding: 10;
+    -fx-border-color: #333;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+/* --- Controls --- */
+#controlsBox {
+    -fx-background-color: #181818;
+    -fx-padding: 10;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+/* --- Lyrics Area --- */
+.text-area {
+    -fx-background-color: #181818;
+    -fx-control-inner-background: #181818;
+    -fx-text-fill: #cfcfcf;
+    -fx-border-color: #333;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-font-size: 13px;
+    -fx-padding: 8;
+}
+.text-area .content {
+    -fx-background-color: #181818;
+}
+
+/* --- Scrollbars --- */
+.scroll-bar:horizontal, .scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+.thumb {
+    -fx-background-color: #444;
+}
+.thumb:hover {
+    -fx-background-color: #1db954;
+}
