@@ -130,6 +130,7 @@ You can freely use, modify, and share it — just keep credit to the original au
 
 💡 Summary (For Quick Reference)
 
+
 | Task            | Description                |
 | --------------- | -------------------------- |
 | Install Java    | Version 17 or newer        |
